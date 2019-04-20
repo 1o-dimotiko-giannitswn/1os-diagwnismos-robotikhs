@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="128 128 128" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="1366">
+<PageBlocks>
+<Block genus-name="pin-write-digital" id="987">
+<Location>
+<X>236</X>
+<Y>291</Y>
+</Location>
+<BeforeBlockId>499</BeforeBlockId>
+<AfterBlockId>990</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="988" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="989" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="990">
+<Location>
+<X>236</X>
+<Y>345</Y>
+</Location>
+<BeforeBlockId>987</BeforeBlockId>
+<AfterBlockId>502</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="991" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="992" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="502">
+<Location>
+<X>236</X>
+<Y>399</Y>
+</Location>
+<BeforeBlockId>990</BeforeBlockId>
+<AfterBlockId>504</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="503" connector-kind="socket" connector-type="number" init-type="number" label="χιλ/στά δευτ/πτου" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="504">
+<Location>
+<X>236</X>
+<Y>429</Y>
+</Location>
+<BeforeBlockId>502</BeforeBlockId>
+<AfterBlockId>489</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="505" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="506" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="489">
+<Location>
+<X>236</X>
+<Y>483</Y>
+</Location>
+<BeforeBlockId>504</BeforeBlockId>
+<AfterBlockId>492</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="490" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="491" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="492">
+<Location>
+<X>236</X>
+<Y>537</Y>
+</Location>
+<BeforeBlockId>489</BeforeBlockId>
+<AfterBlockId>494</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="493" connector-kind="socket" connector-type="number" init-type="number" label="χιλ/στά δευτ/πτου" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="494">
+<Location>
+<X>236</X>
+<Y>567</Y>
+</Location>
+<BeforeBlockId>492</BeforeBlockId>
+<AfterBlockId>993</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="495" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="496" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="993">
+<Location>
+<X>236</X>
+<Y>621</Y>
+</Location>
+<BeforeBlockId>494</BeforeBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="994" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="995" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-low" id="995">
+<Location>
+<X>398</X>
+<Y>648</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="993" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D5" id="994">
+<Location>
+<X>398</X>
+<Y>624</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="993" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="digital-low" id="496">
+<Location>
+<X>398</X>
+<Y>594</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="494" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D6" id="495">
+<Location>
+<X>398</X>
+<Y>570</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="494" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="493">
+<Label>1000</Label>
+<Location>
+<X>452</X>
+<Y>540</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="492" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="digital-high" id="491">
+<Location>
+<X>398</X>
+<Y>510</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="489" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D6" id="490">
+<Location>
+<X>398</X>
+<Y>486</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="489" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="digital-low" id="506">
+<Location>
+<X>398</X>
+<Y>456</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="504" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D8" id="505">
+<Location>
+<X>398</X>
+<Y>432</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="504" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="503">
+<Label>4000</Label>
+<Location>
+<X>452</X>
+<Y>402</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="502" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="digital-high" id="992">
+<Location>
+<X>398</X>
+<Y>372</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="990" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D5" id="991">
+<Location>
+<X>398</X>
+<Y>348</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="990" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="digital-low" id="989">
+<Location>
+<X>398</X>
+<Y>318</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="987" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D4" id="988">
+<Location>
+<X>398</X>
+<Y>294</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="987" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="delay" id="482">
+<Location>
+<X>236</X>
+<Y>153</Y>
+</Location>
+<BeforeBlockId>984</BeforeBlockId>
+<AfterBlockId>484</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="483" connector-kind="socket" connector-type="number" init-type="number" label="χιλ/στά δευτ/πτου" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="484">
+<Location>
+<X>236</X>
+<Y>183</Y>
+</Location>
+<BeforeBlockId>482</BeforeBlockId>
+<AfterBlockId>499</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="485" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="486" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="499">
+<Location>
+<X>236</X>
+<Y>237</Y>
+</Location>
+<BeforeBlockId>484</BeforeBlockId>
+<AfterBlockId>987</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="500" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="501" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-high" id="501">
+<Location>
+<X>398</X>
+<Y>264</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="499" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D8" id="500">
+<Location>
+<X>398</X>
+<Y>240</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="499" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="digital-low" id="486">
+<Location>
+<X>398</X>
+<Y>210</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="484" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D7" id="485">
+<Location>
+<X>398</X>
+<Y>186</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="484" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="483">
+<Label>5000</Label>
+<Location>
+<X>452</X>
+<Y>156</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="482" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="478">
+<Location>
+<X>121</X>
+<Y>37</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="479" connector-kind="socket" connector-type="cmd" init-type="cmd" label="κάνε" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="479">
+<Location>
+<X>236</X>
+<Y>45</Y>
+</Location>
+<BeforeBlockId>478</BeforeBlockId>
+<AfterBlockId>984</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="480" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="481" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="pin-write-digital" id="984">
+<Location>
+<X>236</X>
+<Y>99</Y>
+</Location>
+<BeforeBlockId>479</BeforeBlockId>
+<AfterBlockId>482</AfterBlockId>
+<Sockets num-sockets="2">
+<BlockConnector con-block-id="985" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+<BlockConnector con-block-id="986" connector-kind="socket" connector-type="boolean" init-type="boolean" label="" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="digital-high" id="986">
+<Location>
+<X>398</X>
+<Y>126</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="984" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D4" id="985">
+<Location>
+<X>398</X>
+<Y>102</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="984" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="digital-high" id="481">
+<Location>
+<X>398</X>
+<Y>72</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="479" connector-kind="plug" connector-type="boolean" init-type="boolean" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="DuinoEDU_D7" id="480">
+<Location>
+<X>398</X>
+<Y>48</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="479" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
