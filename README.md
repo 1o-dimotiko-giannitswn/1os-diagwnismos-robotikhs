@@ -39,4 +39,4 @@ Ardublock.
 ![Ardublock code screenshot](ArduBlock.png)
 
 ## Παρουσίαση της εργασίας
-Η παρουσίαση της εργασίας από τους δημιουργούς της βρίσκεται σε [αυτό το βίντεο].(https://www.youtube.com/watch?v=CK-kxPL6CWw)
+Η παρουσίαση της εργασίας από τους δημιουργούς της βρίσκεται σε [αυτό το βίντεο](https://www.youtube.com/watch?v=CK-kxPL6CWw).
